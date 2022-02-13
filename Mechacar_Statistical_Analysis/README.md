@@ -23,21 +23,28 @@ The data set also has an r-squared value of .7149 which means about 71% of mpg t
 
 
 ## Deliverable 2. Summary Statistics on Suspension Coils
-The MechaCar Suspension_Coil data set shows the results from multiple lots. From this data set we found the weight capacities of suspension coils in prototytpe cars. From all lots- 
+The MechaCar Suspension_Coil data set shows the results from multiple lots. From this data set we found the weight capacities of suspension coils in prototytpe cars. From all lots..
+
 <img width="349" alt="D2 Screen Shot" src="https://user-images.githubusercontent.com/86068655/153758985-d269c42f-c18e-4927-9d4e-68be5ccf947f.png">
 
-Then From each of the 3 lots-
+Then From each of the 3 lots.. 
+
 <img width="1196" alt="D2 2nd pic" src="https://user-images.githubusercontent.com/86068655/153759124-346bf82e-69ea-4b27-83e6-39b4a85f2a3c.png">
+
 From a more indepth look at each lot, we can see Lot 3 had an extremely high variance, and a slightly lower mean than what our null hypothesis show. The std deviation was also high. It would be safe to assume lot 3 had the worst results in comparion to the other 2 lots. Lots 1 and 2 show more consistency with results with variances of .98 and 7.47 respectively. Lots 1 and 2 also are within the 100PSI variance requirement, which lot 3 is not.
 
 ## Deliverable 3. T-Tests on Suspension Coils
 
-A T-test accross all lots are shown below
+A T-test accross all lots are shown below..
+
 <img width="435" alt="D3 TTest" src="https://user-images.githubusercontent.com/86068655/153759445-9e15f7ae-0c78-4d89-8aec-35f1f9b1104b.png">
+
 The actual mean of the sample is 1498.78. The p-value is .06 which is higher than .05; therefore, there is not enough evidence to encourage the rejection of the null hypothesis. 
 
 ### Individual lots
+
 <img width="653" alt="D3 Multi Lot" src="https://user-images.githubusercontent.com/86068655/153759646-91b61a2b-ea74-4243-b1ae-bdbc79e8b92d.png">
+
     1. Lot 1 has a mean sample of 1500, so obviously we have to accept the null hypothesis for lot 1 because there is not statistical difference from the sample         mean and population mean.
     2. Lot 2 has just about the same outcome as lot 1 with the sample mean jsut slightly different of 1500.02, which means we cannot reject the null hypothesis.
     3. Lot 3 is the runt of the sample. The sample mean is 1496.14, off from the 1500 null hypothesis. The p-value is .04168 with is lower than the significance    level of .05, which indicates for lot 3 to reject the null hypothesis. 
